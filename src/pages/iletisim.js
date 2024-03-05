@@ -11,7 +11,7 @@ const iletisim = () => {
   const [click, setClick] = useState(false);
 
   if (click) {
-    console.log("a")
+  
     if (!nameSurname || !email || !phone || !message || nameSurname == "" || email == "" || phone == "" || message == "") {
         toast.error("bilglerinizi kontrol edin")
         window.alert("bilglerinizi kontrol edin")
