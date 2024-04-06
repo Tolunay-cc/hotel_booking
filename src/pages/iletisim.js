@@ -78,7 +78,6 @@ const iletisim = () => {
                                   "
                 id="adSoyad"
               />
-     
             </div>
 
             <div className="w-1/2 mx-auto">
